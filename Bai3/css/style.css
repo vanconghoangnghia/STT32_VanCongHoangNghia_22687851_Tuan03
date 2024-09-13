@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(172, 75, 22);
+  color: rgb(111, 132, 12);
+  letter-spacing: 10px;
+  text-shadow: -5px -5px 5px white;
+  border-bottom: 1px solid black;
+  line-height: 80px;
+  text-indent: 15px;
+}
+
+.menu {
+  border-bottom: 1px solid black;
+}
+
+.menu li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(210, 140, 95);
+}
+
+.menu li:hover {
+  background-color: rgb(85, 45, 21);
+  cursor: pointer;
+}
+
+.pic-line {
+  width: 100%;
+  height: 150px;
+}
+
+.center {
+  position: relative;
+  width: 100%;
+  height: 480px;
+  border-bottom: 1px solid black;
+}
+
+.center-left {
+  position: absolute;
+  width: 65%;
+  height: 100%;
+  text-indent: 20px;
+  border-right: 1px solid rgb(217, 217, 217);
+}
+
+.cen-left-head h2 {
+  margin-top: 40px;
+  color: rgb(155, 139, 61);
+  letter-spacing: 10px;
+}
+
+.content {
+  color: rgb(155, 139, 61);
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 30px;
+  text-indent: 60px;
+}
+
+table {
+  margin-top: 10px;
+  text-indent: 30px;
+}
+
+table .input {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  width: 400px;
+}
+
+.sign-up-btn {
+  width: 100px;
+  height: 40px;
+  color: white;
+  background-color: rgb(126, 127, 2);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.sign-up-btn:active {
+  background-color: rgb(86, 86, 2);
+}
+
+.center-right {
+  position: absolute;
+  left: 75%;
+  top: 7%;
+}
+
+.links {
+  width: 150px;
+  height: 170px;
+  padding-left: 40px;
+  padding-right: 20px;
+  background-color: rgb(249, 234, 213);
+  border-radius: 20px 20px 0px 0px;
+}
+
+.links h2 {
+  margin-bottom: 20px;
+  text-indent: -25px;
+  color: rgb(89, 62, 48);
+}
+
+.links ul {
+  color: rgb(192, 135, 95);
+}
+
+.info {
+  padding: 15px;
+  color: rgb(89, 62, 48);
+}
+
+.info-detail {
+  width: 200px;
+  height: 170px;
+}
+
+.leaf-pic {
+  width: 70px;
+  height: 40px;
+  float: left;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid rgb(201, 194, 194);
+}
+
+.info-detail p {
+  color: rgb(115, 124, 131);
+}
+
+.footer {
+  text-align: center;
+  font-size: 23px;
+  line-height: 55px;
+}

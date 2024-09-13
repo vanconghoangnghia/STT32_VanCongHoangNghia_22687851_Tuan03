@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+}
+
+.header {
+  width: 100%;
+  height: 183px;
+  color: white;
+  background-color: rgb(41, 78, 121);
+  position: relative;
+}
+
+.header-left h1{
+  position: absolute;
+  top: 40px;
+  left: 140px;
+}
+
+.header-left h3{
+  position: absolute;
+  top: 80px;
+  left: 140px;
+}
+
+.header-right .search{
+  position: absolute;
+  top: 20px;
+  right: 100px;
+}
+
+.header-right .search-btn{
+  position: absolute;
+  top: 20px;
+  right: 50px;
+}
+
+.search {
+  padding: 10px;
+}
+
+.search-btn {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.menu{
+  position: absolute;
+  top: 120px;
+  left: 800px;
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 20px;
+  background-color: rgb(63, 114, 179);
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+li:hover {
+  background-color: white;
+  color: rgb(63, 114, 179);
+  cursor: pointer;
+}
+
+.menu2 {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 445px;
+  background-color: #34495e;
+  padding: 10px;
+  flex-direction: column; /* Xếp theo cột dọc */
+
+}
+
+.menu2 li {
+  margin: auto 0;
+}
+
+.menu2 a {
+  color: white;
+}
+
+.menu li:hover .menu2 {
+  display: inline-block;
+  
+}
+.center {
+  position: relative;
+  width: 1534px;
+  height: 560px;
+  color: rgb(127, 115, 122);
+  padding: 10px;
+}
+
+.contact h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.center-left {
+  position: absolute;
+  width: 60%;
+  border-bottom: 2px dashed rgb(127, 115, 122);
+}
+
+.content {
+  position: relative;
+}
+
+.content-left {
+  position: absolute;
+  width: 60%;
+  margin-top: 20px;
+}
+
+.content-left p {
+  color: red;
+  text-shadow: 3px 3px 5px green;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.content-right {
+  position: absolute;
+  left: 60%;
+  width: 40%;
+  margin-top: 20px;
+}
+
+.content-right h1 {
+  padding-bottom: 10px;
+  border-bottom: 2px dashed rgb(127, 115, 122);
+}
+
+.content-right p {
+  padding-top: 12px;
+}
+
+.center-right {
+  position: absolute;
+  left: 65%;
+  width: 32%;
+}
+
+.center-right  h1{
+  padding: 10px;
+  margin-top: 40px;
+  padding-left: 0px;
+}
+
+.discounts {
+  border-bottom: 2px dashed rgb(127, 115, 122);
+}
+
+.rose {
+  width: 95%;
+  padding: 10px;
+  margin-top: 15px;
+  border: 1px solid gray;
+}
+
+.center-right p {   
+  color: black;
+  margin-top: 20px;
+}
+
+.read-more {
+  color: blue;
+  font-weight: bold;
+  float: right;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  background-color: rgb(32, 50, 78);
+  color: white;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.address {
+  color: rgb(92, 151, 205);
+}
